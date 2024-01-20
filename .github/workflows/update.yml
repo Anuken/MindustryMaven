@@ -18,7 +18,7 @@ jobs:
       - name: Set up JDK
         uses: actions/setup-java@v1
         with:
-          java-version: 16
+          java-version: 17
       - name: Make gradlew executable
         run: chmod +x ./gradlew
       - name: Build with Gradle
@@ -29,4 +29,4 @@ jobs:
           git config --global user.name "Github Actions"
           git add *
           git commit -m "[version-update]"
-          git push https://Zelaux:${{ secrets.API_TOKEN_GITHUB }}@github.com/Zelaux/MindustryRepo
+          git push https://Anuken:${{ secrets.API_TOKEN_GITHUB }}@github.com/Anuken/MindustryRepo
