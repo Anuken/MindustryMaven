@@ -2,7 +2,7 @@
 apply plugin: "java"
 apply plugin: updater.CheckMindustryUpdatesPlugin
 repositories {
-    maven { url 'https://raw.githubusercontent.com/Zelaux/MindustryRepo/master/repository' }
+    maven { url 'https://raw.githubusercontent.com/Anuken/MindustryMaven/master/repository' }
 }
 dependencies {
     implementation "com.github.Anuken.Arc:arc-core:v145"
